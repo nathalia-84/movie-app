@@ -40,7 +40,7 @@
   }
 
   header {
-    @apply sm:mt-10 mt-5;
+    @apply sm:mt-10 mt-5 mb-5;
   }
 
   header img {
@@ -58,7 +58,7 @@
   }
 
   .trending {
-    @apply mt-20;
+    @apply mt-15;
 
     & ul {
       @apply flex flex-row overflow-y-auto gap-5 -mt-10 w-full hide-scrollbar;
